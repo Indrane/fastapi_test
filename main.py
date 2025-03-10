@@ -6,7 +6,7 @@ from database import engine
 
 app = FastAPI()
 
-app.include_router(auth.router)
+app.include_router(auth.router) 
 app.include_router(todo.router)
 
 @app.on_event("startup")
