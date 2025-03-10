@@ -35,8 +35,7 @@ Now, visit **http://127.0.0.1:8000/docs** to explore the API documentation! 🎉
 | **GET** | `/` | Root endpoint |
 | **POST** | `/users/register` | Register a new user |
 | **POST** | `/users/login` | Login and get JWT token |
-| **GET** | `/protected` | Protected route (JWT required) |
-| **WS** | `/ws/chat` | Real-time chat using WebSockets |
+
 
 ---
 
